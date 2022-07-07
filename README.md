@@ -1,0 +1,1 @@
+This project was created for The Odin Project's Intermediate HTML/CSS course.
