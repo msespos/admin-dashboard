@@ -69,14 +69,13 @@ h2 {
 
 .main-cards {
   border: 2px solid purple;
-  grid-area: 1 / 1 / 2 / 2;
   display: grid;
   grid-template: repeat(3, 1fr) / repeat(2, 1fr);
 }
 
 .card {
   border: 1px solid green;
-  height: 200px;
+  height: 222px;
 }
 
 .main-sides {
@@ -87,24 +86,40 @@ h2 {
 
 .main-sides-top {
   border: 2px solid purple;
+  display: grid;
 }
 
 .main-sides-top-header {
-
+  border: 2px solid green;
 }
 
-.main-sides-announcement {
+.main-sides-top-items {
+  border: 2px solid green;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+}
 
+.main-sides-top-item {
+  border: 1px solid;
+  height: 100px;
 }
 
 .main-sides-bottom {
-
+  border: 2px solid purple;
+  display: grid;
 }
 
 .main-sides-bottom-header {
-
+  border: 2px solid green;
 }
 
-.main-sides-trending {
+.main-sides-bottom-items{
+  border: 2px solid green;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+}
 
+.main-sides-bottom-item {
+  border: 1px solid;
+  height: 75px;
 }
