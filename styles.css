@@ -11,11 +11,11 @@ h2 {
 }
 
 .sidebar {
-  border: 3px solid red;
+  /* border: 3px solid red; */
   grid-area: 1 / 1 / 6 / 2;
   display: grid;
   grid-template-rows: 1fr 4fr 2fr 4fr;
-  gap: 20px;
+  gap: 30px;
   background-color: cornflowerblue;
   color: white;
   font-weight: bold;
@@ -27,7 +27,7 @@ h2 {
   /* border: 3px solid blue; */
   display: grid;
   grid-template-rows: 1 fr;
-  font-size: x-large;
+  font-size: 33px;
 }
 
 .sidebar-top {
@@ -42,18 +42,30 @@ h2 {
   grid-template-rows: repeat(3, 1fr);
 }
 
+.title-icon-and-description {
+  /* border: 2px solid purple; */
+  display: grid;
+  grid-template-columns: 0.1fr 1fr 5fr;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px
+}
+
 .icon-and-description {
   /* border: 2px solid purple; */
   display: grid;
-  grid-template-columns: 1fr 1fr 5fr;
+  grid-template-columns: 0.5fr 1fr 5fr;
   align-items: center;
+  gap: 10px;
 }
 
 .icon {
+  /* border: 1px solid green; */
   grid-column: 2 / 3;
 }
 
 .description {
+  /* border: 1px solid green; */
   grid-column: 3 / 4;
 }
 
