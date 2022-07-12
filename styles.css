@@ -1,6 +1,6 @@
 @font-face {
   font-family: Roboto;
-  src: url(Roboto/Roboto-Black.ttf)
+  src: url(Roboto/Roboto-Regular.ttf)
 }
 
 html, body {
@@ -105,7 +105,7 @@ html, body {
 .search-bar {
   width: 600px;
   height: 30px;
-  background-color: lightgray;
+  background-color: #e8ebed;
   border-radius: 30px;
 }
 
@@ -160,11 +160,11 @@ button {
 }
 
 .main-content {
-  border: 3px solid red;
+  /* border: 3px solid red; */
   grid-area: 2 / 2 / 6 / 6;
   display: grid;
   grid-template-columns: 3fr 1fr;
-  background-color: aliceblue;
+  background-color: #e8ebed;
 }
 
 .main-cards-header-and-cards {
@@ -172,7 +172,10 @@ button {
 }
 
 .main-cards-header {
-  border: 2px solid purple;
+  /* border: 2px solid purple; */
+  padding: 30px 20px 0px 20px;
+  font-size: large;
+  font-weight: bold;
 }
 
 .main-cards {
@@ -184,10 +187,40 @@ button {
 }
 
 .card {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   background-color: white;
-  border-left: 15px solid orange;
+  border-left: 10px solid orange;
+  border-radius: 10px;
   height: 200px;
+  box-shadow: 0px 4px 4px hsl(0deg 0% 0% / 0.28);
+  display: grid;
+  grid-template-rows: 3fr 1fr;
+}
+
+.card-text {
+  /* border: 1px solid black; */
+  margin: 25px 25px 0px 25px;
+}
+
+.card-text-title {
+  font-weight: bolder;
+  font-size: large;
+}
+
+.card-text-body {
+  font-weight: lighter;
+  font-size: smaller;
+}
+
+.card-icons {
+  /* border: 1px solid black; */
+  margin: 25px;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.card-icon-left {
+  grid-column: 6 / 7;
 }
 
 .main-sides {
