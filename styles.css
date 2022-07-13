@@ -5,13 +5,14 @@
 
 html, body {
   height: 100%;
+  margin: 0;
   font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
 .container {
   /* border: 3px solid red; */
   display: grid;
-  grid-template: repeat(5, 1fr) / repeat(5, 1fr);
+  grid-template: 0.5fr repeat(4, 1fr) / repeat(5, 1fr);
   height: 100%;
 }
 
@@ -76,7 +77,6 @@ html, body {
   /* border: 3px solid red; */
   grid-area: 1 / 2 / 2 / 6;
   display: grid;
-  grid-template-rows: 1fr 1fr;
 }
 
 .header-top {
@@ -113,7 +113,7 @@ html, body {
   /* border: 3px solid blue; */
   display: grid;
   grid-template-columns: 2fr 1fr 2fr;
-  padding: 0px 30px 20px 30px;
+  padding: 20px 30px 25px;
 }
 
 .header-bottom-left {
@@ -123,6 +123,7 @@ html, body {
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 1fr 1fr;
   align-items: center;
+  margin-left: 20px;
 }
 
 .header-bottom-left-icon {
@@ -155,7 +156,7 @@ button {
   border: none;
   border-radius: 25px;
   color: white;
-  padding: 15px 30px;
+  padding: 12px 28px;
   font-size: large;
 }
 
@@ -165,6 +166,7 @@ button {
   display: grid;
   grid-template-columns: 3fr 1fr;
   background-color: #e8ebed;
+  padding: 0px 20px;
 }
 
 .main-cards-header-and-cards {
