@@ -257,18 +257,19 @@ button {
 
 .main-sides-top-item {
   /* border: 1px solid; */
-  height: 85px;
+  height: 90px;
 }
 
 .main-sides-top-item-title {
+  /* border: 1px solid; */
   font-weight: bolder;
-  margin: 10px 20px;
+  margin: 10px 20px 0px;
 }
 
 .main-sides-top-item-body {
   font-weight: lighter;
   font-size: small;
-  margin: 0px 20px;
+  margin: 5px 20px;
 }
 
 hr {
@@ -276,7 +277,7 @@ hr {
   height: 2px;
   border: 0;
   border-top: 1px solid #ccc;
-  margin: 10px 20px;
+  margin: 5px 20px;
   padding: 0;
 }
 
